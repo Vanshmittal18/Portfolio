@@ -17,36 +17,6 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <style>
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-            background-color: #222;
-            color: white;
-            position: sticky;
-            top: 0;
-            z-index: 999;
-        }
-        .navigation a.nav {
-            margin: 0 10px;
-            color: white;
-            text-decoration: none;
-        }
-        #searchContainer {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-            margin: 10px auto;
-        }
-        #searchContainer textarea {
-            width: 300px;
-            height: 35px;
-            padding: 5px;
-        }
-    </style>
 </head>
 
 <body>
@@ -70,46 +40,45 @@
 
         <div id="navigation" class="navigation">
             <a href="#Home" class="nav">Home</a>
-            <a href="#Project" class="nav">Projects</a>
+            <a href="#ProjectIntro" class="nav">Projects</a>
             <a href="#Experience" class="nav">Experience</a>
             <a href="#About" class="nav">About</a>
             <a href="#Contact" class="nav">Contact</a>
         </div>
+    </div>
 
+    <!-- HOME -->
+    <div id="Home" class="slides">
         <div id="searchContainer">
             <textarea name="search" id="search" class="search" placeholder=">>> Search Section"></textarea>
             <button class="btn btn-dark" onclick="scrollToMatch()">
                 <span class="btn-text">Search</span> <i class="fas fa-search icon"></i>
             </button>
         </div>
-    </div>
-
-    <!-- HOME -->
-    <div id="Home" class="slides">
         <div id="Tanmay">
             <div class="text">
                 <p class="hello">Hello Myself</p>
                 <p class="name">Vansh Mittal</p>
                 <a href="https://docs.google.com/document/d/1ag-W7eMND9m5l_hQN-wbSeAdZd0WoFoz/edit?usp=drive_link&ouid=103719880794559246172&rtpof=true&sd=true"
-                   target="_blank"
-                   style="
-                      display: inline-block;
-                      background-color: #ff4081;
-                      color: white;
-                      padding: 10px 18px;
-                      font-size: 1rem;
-                      font-weight: bold;
-                      text-decoration: none;
-                      border-radius: 6px;
-                      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-                      transition: all 0.3s ease;
-                      margin-left: -10px;
-                   "
-                   onmouseover="this.style.backgroundColor='#e73370'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 12px rgba(0,0,0,0.25)'"
-                   onmouseout="this.style.backgroundColor='#ff4081'; this.style.transform='none'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'"
-                >
-                   <i class="fas fa-file-alt" style="margin-right: 8px;"></i>Resume
-                </a>
+                target="_blank"
+                style="
+                   display: inline-block;
+                   background-color: #ff4081;
+                   color: white;
+                   padding: 10px 18px;
+                   font-size: 1rem;
+                   font-weight: bold;
+                   text-decoration: none;
+                   border-radius: 6px;
+                   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                   transition: all 0.3s ease;
+                "
+                onmouseover="this.style.backgroundColor='#e73370'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 12px rgba(0,0,0,0.25)'"
+                onmouseout="this.style.backgroundColor='#ff4081'; this.style.transform='none'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'"
+             >
+                <i class="fas fa-file-alt" style="margin-right: 8px;"></i>Resume
+             </a>
+             
             </div>
             <div class="image">
                 <div class="bgForImage"><img src="../resources/img/DP/final181.png" alt=""></div>
@@ -118,7 +87,7 @@
     </div>
 
     <!-- PROJECT INTRO -->
-    <div id="SkillsIntro" class="slides">
+    <div id="ProjectIntro" class="slides">
         <div class="containr">
             <div class="block">MongoDB</div>
             <div class="block">MySQL</div>
@@ -159,7 +128,7 @@
             <div class="block2">React.js</div>
         </div>
     </div>
-    
+
     <!-- PROJECT LIST -->
     <div id="Project" class="slides">
         <div class="pageHeading">Projects</div>
@@ -265,4 +234,3 @@
 </body>
 
 </html>
-
