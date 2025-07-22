@@ -8,9 +8,7 @@
             "css3",
             "javascript",
             "python",
-            "flask",
-            "sqlite",
-            "sqlalchemy"
+            "flask"
         ],
         "LiveLink": "",
         "RepoLink": "https://github.com/tanmayvj10/Elibrary",
