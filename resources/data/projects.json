@@ -1,6 +1,6 @@
 {
     "ELibrary": {
-        "heading": "E Library LMS",
+        "heading": "E Library",
         "description": "Unable to load the data",
         "descriptionFile": "../../resources/views/eLibrary.html",
         "techStackIcons": [
@@ -11,9 +11,7 @@
             "flask"
         ],
         "LiveLink": "",
-        "RepoLink": "https://github.com/tanmayvj10/Elibrary",
-        "DemoLink": "https://www.youtube.com/embed/sY6bAyTGYHs"
-    },
+        "RepoLink": "https://github.com/Vanshmittal18/Elibrary"    },
     "Wanderlust": {
         "heading": "Wanderlust",
         "description": "Unable to load the data",
@@ -21,7 +19,7 @@
         "techStackIcons": [
             "javascript", "html5", "css3"
         ],
-        "RepoLink": "https://github.com/Vanshmittal18/Wanderlust"
+        "RepoLink": "https://github.com/Vanshmittal18/Wanderlust-BnB-"
     },
     "SpotifyClone": {
         "heading": "Spotify Landing Page",
